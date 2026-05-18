@@ -1,0 +1,17 @@
+{
+  "_NOTE": "此为占位文件。请先完成 Ollama + Qwen2.5-3B-Base 实验，再替换本文件。",
+  "_INSTRUCTIONS": [
+    "1. 安装 Ollama: https://ollama.com",
+    "2. 拉取模型: ollama pull qwen2.5:3b-base",
+    "3. 逐温度运行: python code/ollama_local_test.py --temp <T>",
+    "4. 完成后本文件将包含完整 GDI 数据"
+  ],
+  "_EXPECTED_RESULT": {
+    "0.68": {
+      "diversity_B": 0.85,
+      "specificity_A": 0.72,
+      "GDI_total": 1.23,
+      "sample_text": "（预期：GDI峰值落在T=0.68附近）"
+    }
+  }
+}
