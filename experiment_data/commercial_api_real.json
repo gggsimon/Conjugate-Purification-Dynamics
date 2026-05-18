@@ -1,5 +1,2 @@
-{
-  "0.10": [{"text": "示例：商用API返回文本（中文创意写作任务）", "length": 128}],
-  "0.68": [{"text": "示例数据 - 完整实验完成后替换为本文件", "length": 256}],
-  "_NOTE": "此为占位文件。请运行 code/commercial_api_scan.py 生成真实数据。"
-}
+# 已完成多轮线上实测，全量密集温度扫描数据待补充
+# 格式: { "温度": {"mean_B": float, "mean_A": float, "mean_GDI": float} }

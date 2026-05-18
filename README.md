@@ -154,13 +154,30 @@ Conjugate-Purification-Dynamics/
 如果本研究对您有启发，请引用：
 
 ```bibtex
-@misc{daoxuan2026cpd,
+@misc{gggsimon2026cpd,
   title={共轭净化动力学：大语言模型的普适生成能力守恒律与 0.68 临界常数（初步提案）},
   author={道玄},
   year={2026},
-  howpublished={\url{https://github.com/daoxuan/Conjugate-Purification-Dynamics}}
+  howpublished={\url{https://github.com/gggsimon/Conjugate-Purification-Dynamics}}
 }
 ```
+
+---
+
+## 数据状态说明
+
+| 文件 | 状态 | 说明 |
+|------|------|------|
+| `experiment_data/commercial_api_real.json` | 实测精简采样 | 已完成多轮线上API实测，全量密集温度扫描数据待补充 |
+| `experiment_data/gemma2_2b_local.json` | ✅ 完整实测 | 本地Ollama全量实测数据，可直接用于分析绘图 |
+| `experiment_data/qwen3b_english_data.json` | 🔄 待生成 | 部署 `qwen2.5:3b-base` 后运行脚本自动产出 |
+
+---
+
+## 研究原则声明
+
+> 本项目秉持**诚实研究、透明开源、接受证伪**原则，不夸大结论、不隐瞒实验缺陷，完整公开理论推演逻辑、实测流程与原始数据。
+> 欢迎学界同仁、独立研究者复现实验、提出反例、修正理论边界，共同完善大模型温度动力学与共轭平衡体系。
 
 ---
 

@@ -154,11 +154,11 @@ ollama pull qwen2.5:3b-base
 如果您成功复现了实验，请引用：
 
 ```bibtex
-@misc{daoxuan2026cpd,
+@misc{gggsimon2026cpd,
   title={共轭净化动力学：大语言模型的普适生成能力守恒律与 0.68 临界常数（初步提案）},
   author={道玄},
   year={2026},
-  howpublished={\url{https://github.com/daoxuan/Conjugate-Purification-Dynamics}}
+  howpublished={\url{https://github.com/gggsimon/Conjugate-Purification-Dynamics}}
 }
 ```
 

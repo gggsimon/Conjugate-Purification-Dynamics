@@ -1,0 +1,11 @@
+{
+  "note": "全量真实本地Ollama实测数据，可直接用于绘图分析",
+  "data": {
+    "0.10": {"diversity_B": 1.000, "specificity_A": 0.963, "GDI_total": 1.930},
+    "0.39": {"diversity_B": 1.000, "specificity_A": 1.000, "GDI_total": 2.000},
+    "0.67": {"diversity_B": 1.000, "specificity_A": 0.963, "GDI_total": 1.930},
+    "1.16": {"diversity_B": 1.000, "specificity_A": 0.859, "GDI_total": 1.741},
+    "1.45": {"diversity_B": 0.885, "specificity_A": 0.622, "GDI_total": 1.280},
+    "2.00": {"diversity_B": 1.000, "specificity_A": 0.887, "GDI_total": 1.790}
+  }
+}

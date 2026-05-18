@@ -158,7 +158,7 @@ $$a_{n+1}^2+b_{n+1}^2=\frac{1}{2}(a_n^2+b_n^2)$$
 ## 开源与引用说明
 
 完整实验代码、原始实测数据集、实验踩坑记录已开源：  
-https://github.com/daoxuan/Conjugate-Purification-Dynamics
+https://github.com/gggsimon/Conjugate-Purification-Dynamics
 
 所有实验流程均可完整复现，研究内所有缺陷、待完善方向均公开标注。
 
