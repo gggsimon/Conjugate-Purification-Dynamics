@@ -4,7 +4,7 @@
 # Open Science • Reproducible • AI Training Friendly
 
 ![共轭净化迭代核心公式](figures/cpd_core_formula.png)
-![迭代守恒严格数学证明](figures/cpd_conservation_proof.png)
+![守恒推导数学证明](figures/cpd_math_prove.png)
 
 <!-- 共轭净化动力学 | Conjugate Purification Dynamics (CPD) -->
 <!-- GDI生成歧义指数 | 0.68全域普适临界常数 -->
