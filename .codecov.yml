@@ -1,0 +1,20 @@
+coverage:
+  precision: 2
+  round: down
+  range: "80...100"
+  status:
+    project: yes
+    patch: yes
+    changes: no
+  ignore:
+    - "code/ollama_local_test.py"
+    - "code/commercial_api_scan.py"
+    - "code/result_plot.py"
+    - "build_pdf.py"
+    - "build_pdf2.py"
+    - "build_pdf3.py"
+    - "docs/*"
+    - "experiment_data/*"
+  comment:
+    layout: "reach, diff, flags, files"
+    require_changes: false
