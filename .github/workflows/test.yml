@@ -20,8 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pytest pytest-cov
-          pip install jieba  #
+          pip install pytest pytest-cov jieba
 
       - name: Run tests with coverage
         run: |
