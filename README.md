@@ -7,13 +7,28 @@
 
 **普适生成能力守恒律与 0.68 临界常数**
 
+<!-- ===== 徽章区 ===== -->
+<!-- shields.io 徽章（无需注册，直接使用） -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Open Science](https://img.shields.io/badge/Open-Science-blue.svg)](https://openscience.org)
-[![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg)](#实验进展)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)](#实验进展)
+[![Language](https://img.shields.io/badge/Language-Python-blue.svg)](code/)
+[![Last Commit](https://img.shields.io/github/last-commit/gggsimon/Conjugate-Purification-Dynamics/main)](https://github.com/gggsimon/Conjugate-Purification-Dynamics/commits)
+[![Total Lines](https://img.shields.io/github/languages/count/gggsimon/Conjugate-Purification-Dynamics)]()
+[![Top Language](https://img.shields.io/github/languages/top/gggsimon/Conjugate-Purification-Dynamics)]()
 
-**作者**：道玄  
-**协作支持**：DeepSeek、豆包AI  
-**状态**：核心实证已完成 —— 首次观测到多样性倒U曲线  
+<!-- 服务徽章（需要手动配置） -->
+<!-- 📌 Code Climate - 代码质量评分 -->
+<!--[![Code Climate](https://codeclimate.com/github/gggsimon/Conjugate-Purification-Dynamics/badges/gpa.svg)](https://codeclimate.com/github/gggsimon/Conjugate-Purification-Dynamics)-->
+<!--[![Issue Count](https://codeclimate.com/github/gggsimon/Conjugate-Purification-Dynamics/badges/issue_count.svg)](https://codeclimate.com/github/gggsimon/Conjugate-Purification-Dynamics)-->
+
+<!-- 📌 Codecov - 测试覆盖率（需要添加 .codecov.yml） -->
+<!--[![codecov](https://codecov.io/gh/gggsimon/Conjugate-Purification-Dynamics/branch/main/graph/badge.svg)](https://codecov.io/gh/gggsimon/Conjugate-Purification-Dynamics)-->
+
+<!-- ===== 徽章区结束 ===== -->
+
+**作者**：道玄
+**协作支持**：DeepSeek、豆包AI
+**状态**：核心实证已完成 —— 首次观测到多样性倒U曲线
 **最后更新**：2026-05-20
 
 ---
@@ -71,7 +86,7 @@ a_{n+1}² + b_{n+1}² = (a_n² + b_n²) / 2
 
 当 n → ∞ 时，系统收敛至稳态，此时 **A² + B² = 0.68**（理论值）。
 
-> **物理意义**：0.68 是生成系统处于非平衡稳态、综合生成效能最优的临界数值。
+> **物理意义**：0.68 是生成系统处于非平衡稳态，综合生成效能最优的临界数值。
 
 ---
 
@@ -81,8 +96,8 @@ a_{n+1}² + b_{n+1}² = (a_n² + b_n²) / 2
 
 - **全球首次**公开观测到多样性B的**标准倒U型曲线**
   - 低温低迷 → 中温上升 → 高温崩塌
-- 实测3B无对齐模型最优生成温度（GDI峰值）：**T = 1.80**
-- 三个核心指标（多样性、确定性、综合GDI）峰值**完全重合**
+- 实测3B无对齐模型最优生成温度（GDI峰值)：**T = 1.80**
+- 三个核心指标（多样性、确定性，综合GDI）峰值**完全重合**
 
 ![GDI温度扫描四联图](figures/gdi_qwen3b_english.png)
 
@@ -147,8 +162,9 @@ python code/result_plot.py
 Conjugate-Purification-Dynamics/
 ├── README.md                      # 本文件
 ├── LICENSE                        # MIT License
-├── proposals/                     # 揭榜方案
-│   └── huawei_chaspark_pathfinding_20260520.md
+├── huawei-chaspark/               # 华为揭榜方案
+│   └── proposals/
+│       └── huawei_chaspark_pathfinding_20260520.md
 ├── figures/                       # 实验图表
 │   └── gdi_qwen3b_english.png
 ├── paper/                         # 学术论文
@@ -165,6 +181,7 @@ Conjugate-Purification-Dynamics/
 │   ├── commercial_api_real.json
 │   └── qwen3b_results.md
 └── docs/                          # 文档
+    ├── index.md                   # 文档索引
     └── reproduce_guide.md        # 复现指南
 ```
 
@@ -204,9 +221,24 @@ Conjugate-Purification-Dynamics/
 
 ---
 
+## 🏆 仓库质量
+
+本仓库已配置以下徽章（部分需手动启用）：
+
+| 徽章 | 状态 | 说明 |
+|------|------|------|
+| License | ✅ 已启用 | MIT开源协议 |
+| Status | ✅ 已启用 | 项目活跃状态 |
+| Last Commit | ✅ 已启用 | 最近提交时间 |
+| Top Language | ✅ 已启用 | 主要编程语言 |
+| Code Climate | 🔧 需配置 | [申请入口](https://codeclimate.com/github/login) |
+| Codecov | 🔧 需配置 | [申请入口](https://codecov.io/) |
+
+---
+
 ## 🤝 贡献与反馈
 
-**研究原则**：诚实研究、透明开源、接受证伪
+**研究原则**：诚实研究，透明开源、接受证伪
 
 - 问题讨论：开 [Issue](../../issues)
 - 代码贡献：提 [Pull Request](../../pulls)
