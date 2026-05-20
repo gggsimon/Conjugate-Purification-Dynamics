@@ -1,0 +1,11 @@
+# CPD Core Dependencies
+numpy>=1.20.0
+matplotlib>=3.5.0
+requests>=2.28.0
+
+# Optional: For enhanced text processing
+# jieba>=0.42.1  # Chinese text segmentation (if needed)
+
+# Development dependencies (install with: pip install -r requirements-dev.txt)
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
