@@ -34,7 +34,7 @@ class TestDetectLanguage(unittest.TestCase):
     def test_mixed_text_chinese_dominant(self):
         result = detect_language("这是中文 mixed with some English words")
         # 中英文混合文本，检测结果取决于实现策略
-        self.assertIn(result, ['chinese', 'english'])
+        self.assertIn(result, 'english')
       
     def test_mixed_text_english_dominant(self):
         result = detect_language("Mostly English text with a few 中文字")
