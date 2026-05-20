@@ -21,9 +21,8 @@
 <!--[![Code Climate](https://codeclimate.com/github/gggsimon/Conjugate-Purification-Dynamics/badges/gpa.svg)](https://codeclimate.com/github/gggsimon/Conjugate-Purification-Dynamics)-->
 <!--[![Issue Count](https://codeclimate.com/github/gggsimon/Conjugate-Purification-Dynamics/badges/issue_count.svg)](https://codeclimate.com/github/gggsimon/Conjugate-Purification-Dynamics)-->
 
-<!-- 📌 Codecov - 测试覆盖率（需要添加 .codecov.yml） -->
-<!--[![codecov](https://codecov.io/gh/gggsimon/Conjugate-Purification-Dynamics/branch/main/graph/badge.svg)](https://codecov.io/gh/gggsimon/Conjugate-Purification-Dynamics)-->
-
+<!-- 📌 Codecov - 测试覆盖率 -->
+![Codecov](https://codecov.io/github/gggsimon/Conjugate-Purification-Dynamics/graph/badge.svg?token=FYWTCBR201)
 <!-- ===== 徽章区结束 ===== -->
 
 **作者**：道玄
