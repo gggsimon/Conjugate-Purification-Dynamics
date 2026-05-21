@@ -110,11 +110,12 @@ if optimize_button and prompt.strip():
             )
             st.text_area("优化后 Prompt", value=optimized_prompt, height=180)
             
-            # 一键复制按钮
-            st.copy_button(
+            # 一键复制按钮（兼容所有Streamlit版本）
+            st.download_button(
                 "📋 复制优化后Prompt",
                 data=optimized_prompt,
-                type="secondary",
+                file_name="optimized_prompt.txt",
+                mime="text/plain",
                 use_container_width=True
             )
         
@@ -145,5 +146,5 @@ if optimize_button and prompt.strip():
 # 页脚
 st.divider()
 st.caption("""
-基于生成歧义指数(GDI)理论 | 开源地址： `https://github.com/guodongmin/cpd-alignment` 
+基于生成歧义指数(GDI)理论 | 开源地址：`https://github.com/guodongmin/cpd-alignment`
 """)
