@@ -212,11 +212,13 @@ if optimize_button and prompt.strip():
         with col1:
             st.metric(label=f"原始结果 GDI", value=f"{original_result_gdi:.2f}", delta_color="off")
             st.text_area("原始Prompt生成结果", value=original_result, height=250, disabled=True)
+            st.download_button("📋 复制原始结果", data=original_result, file_name="original_result.txt", mime="text/plain", use_container_width=True)
         
         with col2:
             result_delta = optimized_result_gdi - original_result_gdi
             st.metric(label=f"优化后结果 GDI", value=f"{optimized_result_gdi:.2f}", delta=f"{result_delta:+.2f}")
             st.text_area("优化后Prompt生成结果", value=optimized_result, height=250, disabled=True)
+            st.download_button("📋 复制优化后结果", data=optimized_result, file_name="optimized_result.txt", mime="text/plain", use_container_width=True)
         
         st.divider()
         
