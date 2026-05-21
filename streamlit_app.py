@@ -274,6 +274,7 @@ elif regenerate_button and st.session_state.current_prompt:
         st.subheader("🎯 最新生成结果")
         st.metric(label=f"最终结果 GDI", value=f"{new_result_gdi:.2f}")
         st.text_area("最新生成结果", value=new_result, height=250, disabled=True)
+        st.download_button("📋 复制生成结果", data=new_result, file_name="generated_result.txt", mime="text/plain", use_container_width=True)
 
 
 # 页脚
